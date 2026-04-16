@@ -1,6 +1,6 @@
 async function getWeather() {
-    const latitude = 44.2619;
-    const longitude = -88.4154;
+    const latitude = 18.5583;
+    const longitude = 28.2789;
 
 const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,cloud_cover,wind_speed_10m,wind_speed_80m,wind_speed_120m,wind_speed_180m`;
     try {
